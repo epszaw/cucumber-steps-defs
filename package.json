@@ -12,13 +12,20 @@
     "type": "git",
     "url": "git+https://github.com/lamartire/cucumber-steps-defs.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "cucumber",
+    "cucumber-js",
+    "generator",
+    "automatization"
+  ],
+  "author": "lamartire <lamartire@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/lamartire/cucumber-stepdefs-generator/issues"
   },
   "homepage": "https://github.com/lamartire/cucumber-steps-defs#readme",
+  "main": "src/index.js",
+  "module": "src/index.js",
   "lint-staged": {
     "src/**/*.{js,jsx,json}": [
       "eslint --fix",
