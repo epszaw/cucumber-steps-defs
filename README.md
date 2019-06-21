@@ -2,6 +2,12 @@
 
 > Convert cucumber features to steps definition with pleasure
 
+<p align="center">
+  <a href="https://github.com/lamartire/cucumber-steps-defs" target="_blank">
+    <img src="https://github.com/lamartire/cucumber-steps-defs/blob/master/public/demo.png?raw=true" />
+  </a>
+</p>
+
 ## Installation
 
 Install it globally for CLI-like usage:
