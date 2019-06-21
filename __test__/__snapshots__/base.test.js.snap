@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`base convert should do something 1`] = `
+"const { Given, When, And, Then } = require('cucumber')
+
+Given('precondition', function() {
+  return true
+})
+
+When('action', function() {
+  return true
+})
+
+And('addition', function() {
+  return true
+})
+
+Then('testable outcome', function() {
+  return true
+})"
+`;
+
+exports[`base convert should do something 2`] = `
+"const { Given, When, And, Then } = require('cucumber')
+
+Given('precondition with {string} and {string}', function(param1, param2) {
+  return true
+})
+
+When('action', function() {
+  return true
+})
+
+And('addition', function() {
+  return true
+})
+
+Then('testable outcome equals {string}', function(param1) {
+  return true
+})"
+`;
+
+exports[`base createDefsFromFeatureSource should correctly transform features sources to steps defs 1`] = `
+"const { Given, When, And, Then } = require('cucumber')
+
+Given('precondition', function() {
+  return true
+})
+
+When('action', function() {
+  return true
+})
+
+And('addition', function() {
+  return true
+})
+
+Then('testable outcome', function() {
+  return true
+})"
+`;
+
+exports[`base createDefsFromFeatureSource should correctly transform features sources to steps defs 2`] = `
+"const { Given, When, And, Then } = require('cucumber')
+
+Given('precondition with {string} and {string}', function(param1, param2) {
+  return true
+})
+
+When('action', function() {
+  return true
+})
+
+And('addition', function() {
+  return true
+})
+
+Then('testable outcome equals {string}', function(param1) {
+  return true
+})"
+`;
+
+exports[`base createDefsFromTree should correctly transform prepared steps tree 1`] = `
+"const { Given, When, And, Then } = require('cucumber')
+
+Given('precondition', function() {
+  return true
+})
+
+When('action', function() {
+  return true
+})
+
+And('addition', function() {
+  return true
+})
+
+Then('testable outcome', function() {
+  return true
+})"
+`;
+
+exports[`base createDefsFromTree should correctly transform prepared steps tree 2`] = `
+"const { Given, When, And, Then } = require('cucumber')
+
+Given('precondition with {string} and {string}', function(param1, param2) {
+  return true
+})
+
+When('action', function() {
+  return true
+})
+
+And('addition', function() {
+  return true
+})
+
+Then('testable outcome equals {string}', function(param1) {
+  return true
+})"
+`;

@@ -1,0 +1,22 @@
+[
+  {
+    "text": "precondition",
+    "keyword": "Given",
+    "args": 0
+  },
+  {
+    "text": "action",
+    "keyword": "When",
+    "args": 0
+  },
+  {
+    "text": "addition",
+    "keyword": "And",
+    "args": 0
+  },
+  {
+    "text": "testable outcome",
+    "keyword": "Then",
+    "args": 0
+  }
+]
