@@ -2,7 +2,7 @@
   "name": "cucumber-steps-defs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "lint": "eslint 'src/**/*.{js,jsx,json}'",
     "lint-staged": "lint-staged",
@@ -24,8 +24,8 @@
     "url": "https://github.com/lamartire/cucumber-stepdefs-generator/issues"
   },
   "homepage": "https://github.com/lamartire/cucumber-steps-defs#readme",
-  "main": "src/index.js",
   "module": "src/index.js",
+  "bin": "./bin/cucumber-steps-defs",
   "lint-staged": {
     "src/**/*.{js,jsx,json}": [
       "eslint --fix",
@@ -122,6 +122,7 @@
   "dependencies": {
     "cucumber": "^5.1.0",
     "gherkin": "^5.1.0",
-    "lodash.uniq": "^4.5.0"
+    "lodash.uniq": "^4.5.0",
+    "minimist": "^1.2.0"
   }
 }

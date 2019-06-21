@@ -1,0 +1,33 @@
+#!/usr/bin/env node
+/* eslint-disable */
+const { version } = require('../package.json')
+const minimist = require('minimist')
+const { convert } = require('../src/index')
+
+const argv = minimist(process.argv.slice(2))
+
+if (argv.h || argv.help) {
+  const memo = [
+    [],
+    ['  Usage:       ', 'cucumber-steps-defs -f <feature-path> -o <output-path>'],
+    [],
+    ['  Example:     ', 'cucumber-steps-defs -f ./features/foo.feature -o ./steps'],
+    [],
+    ['  -f, --feature', 'path to cucumber feature file'],
+    ['  -o, --output ', 'path to generated steps definition file'],
+    ['  -h, --help.  ', 'prints usage information'],
+    [],
+  ]
+  
+  memo.forEach(line => {
+     console.info(line.join('    '))
+  })
+  return
+}
+
+const feature = argv.f || argv.feature
+const output = argv.o || argv.output || '.'
+
+;(async () => {
+  await convert(feature, output)
+})()
